@@ -80,8 +80,12 @@ public class FindCheapPlan {
             planFeature.put(planDetails[0], features);
         }
 
+        //sort the plans by its price in ascending order
         planPrice = sortPlanByPrice(planPrice);
 
+        //find all subsets of the plans in ascending order like {P1}, {P2}, {P1,P2}
+        //for each subset find whether it has all the required features and its price
+        //as the plans are sorted and the first subset which contains all required features is the solution
         for(int k=1; k<=plans.size() && finalPlans.size()==0; k++) {
             List<Set<String>> planSubset = combination(new ArrayList<String>(planPrice.keySet()), k);
             for(Set<String> subset : planSubset) {
@@ -104,6 +108,7 @@ public class FindCheapPlan {
             bestPrice += planPrice.get(plan);
             bestPlans += ","+plan;
         }
+
         System.out.println(bestPrice+bestPlans);
 
     }

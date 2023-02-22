@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="03f41944-61bc-41a2-ba48-e3b12d302838" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/telepathy/FindCheapPlan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/telepathy/FindCheapPlan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/telepathy/FindCheapPlan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/telepathy/FindCheapPlan.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +15,10 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/pom.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/org/telepathy/FindCheapPlan.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -29,7 +33,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Dineshkumar.Jayakuma/Documents/telepathy-probelm-2/src/main/java/telepathy"
+    "last_opened_file_path": "C:/Users/Dineshkumar.Jayakuma/Documents/telepathy-probelm-2"
   }
 }]]></component>
   <component name="RecentsManager">
